@@ -1,32 +1,20 @@
 ---
-title: Testimonials
+title: Clients
 layout: default
-bodyClass: page-testimonials-list
+bodyClass: page-clients-list
 ---
 
 <div class="intro">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>Testimonials</h1>
+        <h1>Partial List of Clients</h1>
+        <ul>
+            {% for client in site.data.clients.clients %}
+            <li class="testimonials-name">{{ client }}</li>
+            {% endfor %}
+        </ul>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="container pb-6">
-  <div class="row">
-    {% for testimonial in site.testimonials %}
-    <div class="col-12 col-md-6 mb-2 ">
-      <div class="testimonials testimonials-summary">
-        <div class="testimonials-meta">
-          <h2 class="testimonials-title">{{ testimonial.title }}</h2>
-          <p class="testimonials-name">{{ testimonial.name }}</p>
-          <p class="testimonials-jobtitle">{{ testimonial.jobtitle }}</p>
-        </div>
-        <div class="testimonials-content">{{ testimonial.content }}</div>
-      </div>
-    </div>
-    {% endfor %}
   </div>
 </div>
