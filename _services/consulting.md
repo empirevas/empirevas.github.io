@@ -1,5 +1,5 @@
 ---
-title: 'Business Sales'
+title: 'Consulting'
 image: '/services/default.png'
 ---
 
