@@ -18,7 +18,7 @@
     font-size: 1.3rem;
     font-family: $font-family-heading;
     margin-bottom: 10px;
-    flex: 0;
+    flex: auto;
     @include media-breakpoint-up(sm) {
       margin: 0;
     }

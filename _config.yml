@@ -1,7 +1,7 @@
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Empire Valuation and Advisory Services, Inc.'
 
 collections:
   services:

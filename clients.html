@@ -6,15 +6,24 @@ bodyClass: page-clients-list
 
 <div class="intro">
   <div class="container">
+    <h1>Partial List of Clients</h1>
+    <br>
     <div class="row">
-      <div class="col-12">
-        <h1>Partial List of Clients</h1>
-        <ul>
-            {% for client in site.data.clients.clients %}
-            <li class="testimonials-name">{{ client }}</li>
-            {% endfor %}
-        </ul>
+      <div class="col-sm">
+        {% for client in site.data.clients.col1 %}
+        <p style="width:70% !important;">{{ client }}</p>
+        {% endfor %}
       </div>
+      <div class="col-sm">
+          {% for client in site.data.clients.col2 %}
+          <p style="width:70% !important;">{{ client }}</p>
+          {% endfor %}
+        </div>
+        <div class="col-sm"">
+            {% for client in site.data.clients.col3 %}
+            <p style="width:70% !important;">{{ client }}</p>
+            {% endfor %}
+          </div>
     </div>
   </div>
 </div>

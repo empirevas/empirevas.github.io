@@ -1,5 +1,5 @@
 title: Partial List of Clients
-clients:
+col1:
   - 99 Cents Only
   - ABN AMRO
   - Aegon USA Realty Advisors
@@ -66,6 +66,7 @@ clients:
   - CW Capital Asset Management
   - Dai-Ichi Kangyo Bank
   - Daiwa Bank Ltd.
+col2:
   - Deutsche Bank
   - Drexel Burnham Lambert, Inc.
   - Dwyer Cuirlett
@@ -131,6 +132,7 @@ clients:
   - Metrobank
   - Metropolitan Life Insurance
   - MidFirst Bank
+col3:
   - Midland Bank
   - Mitsubishi Trust& Banking Corp.
   - Morgan Stanley Mortgage Capital
