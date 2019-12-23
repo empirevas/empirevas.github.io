@@ -4,9 +4,9 @@ permalink: pretty
 title: 'Empire Valuation and Advisory Services, Inc.'
 
 collections:
-  services:
-    output: true
-    permalink: /services/:path/
+  # services:
+  #   output: false
+  #   permalink: /services/:path/
   team:
     output: true
     permalink: /team/:path/

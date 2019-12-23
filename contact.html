@@ -13,99 +13,44 @@ bodyClass: page-contact
     </div>
   </div>
 </div>
+
 <div class="container">
   <div class="row">
-    <div class="col-12 col-md-8">
+    <div class="col-12">
+      <p>     
+        Let us provide you with the best possible service! We are happy to speak with you regarding any of our real estate services,
+        so please provide your contact information and as much information as possible regarding your property inquiry in the form below.
+      </p>
       <ul>
         <li><strong>Phone: </strong>{{ site.data.contact.phone }}</li>
         <li><strong>Email: </strong><a href="mailto:{{ site.data.contact.email }}">
             {{ site.data.contact.email }}</a></li>
-        {% if site.data.contact.address %}
-        <li><strong>Address: </strong>{{ site.data.contact.address }}</li>
-        {% endif %}
       </ul>
-      <h4 class="mt-4">Business Hours</h4>
-      <table class="table table-sm opening-hours-table">
-        <tr>
-          <td class="day font-weight-bold">Monday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Tuesday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Wednesday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Thursday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Friday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Saturday</td>
-          <td class="opens">Closed</td>
-          <td></td>
-          <td class="closes"></td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Sunday</td>
-          <td class="opens">Closed</td>
-          <td> </td>
-          <td class="closes"></td>
-        </tr>
-      </table>
-
-      <h4 class="mt-4">Inquiry Form</h4>
-      <form action="https://formspree.io/xgevwzzz" method="POST">
-        <div class="container">
-          <div class="justify-content-center">
-            <div class="row">
-              <div class="col-md">
-                <input class="contact" type="text" name="name" placeholder="Full Name">
-              </div>
-              <div class="col-md">
-                <input class="contact" type="email" name="_replyto" placeholder="Email">
-              </div>
-              <div class="col-md">
-                  <input class="contact" type="email" name="_replyto" placeholder="Email">
-                </div>
-            </div>
-            <div class="row">
-              <div class="col-md">
-                <input class="contact" type="text" name="company" placeholder="Company">
-              </div>
-              <div class="col-md">
-                <input class="contact" type="text" name="phone" placeholder="Phone">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md">
-                <textarea class="contact" type="text" name="notes" placeholder="Message"></textarea>
-              </div>
-            </div>
-            <div class="row justify-content-center">
-              <div class="col-md justify-content-center">
-                <input class="button" type="submit" value="Send">
-              </div>
-            </div>
-          </div>
-        </div>
-      </form>
-      </input>
     </div>
   </div>
+</div>
+
+
+<form action="https://formspree.io/xgevwzzz" method="POST">
+  <div class="container" style="padding-bottom:20px">
+    <div class="justify-content-center">
+      <h4 class="mt-4">Inquiry Form</h4>
+      <div class="row">
+        <div class="col-md">
+          <input class="contact" type="text" name="name" placeholder="Full Name" required>
+        </div>
+        <div class="col-md">
+          <input class="contact" type="email" name="_replyto" placeholder="Email" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <textarea class="contact" type="text" name="notes" placeholder="Message" rows="5" required></textarea>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <input class="button" type="submit" value="Submit">
+      </div>
+    </div>
+  </div>
+</form>

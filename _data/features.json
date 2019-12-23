@@ -2,36 +2,16 @@
   {
     "title": "Industrial",
     "description": "Warehouse/Distribution Facilities • Manufacturing and Processing Facilities • Business Parks • Storage",
-    "image": "images/features/noun_branding_1885335.svg"
+    "image": "images/features/noun_The Process_1885341.svg"
   },
   {
     "title": "Office",
     "description": "Office Buildings • Medical Offices • Surgery Centers • Hospitals • Call Centers • Data Centers",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "image": "images/features/noun_branding_1885335.svg"
   },
   {
     "title": "Retail/Commercial",
     "description": "Shopping Centers • Financial Buildings • Retail Stores • Parking Facilities • Restaurants",
-    "image": "images/features/noun_3d modeling_1885342.svg"
-  },
-  {
-    "title": "Residential",
-    "description": "Apartments • Senior Apartments • Low Income and/or Affordable Housing • Mixed Use (Residential / Commercial) ",
-    "image": "images/features/noun_3d modeling_1885342.svg"
-  },
-  {
-    "title": "Land",
-    "description": "Industrial • Retail • Office • Commercial • Multifamily • Mixed Use • Acreage (Non-Residential) • Urban/Suburban",
-    "image": "images/features/noun_3d modeling_1885342.svg"
-  },
-  {
-    "title": "Public",
-    "description": "Community Center / Recreation Center • Public Service / Municipal Service Building • Religious Facility",
-    "image": "images/features/noun_3d modeling_1885342.svg"
-  },
-  {
-    "title": "Other",
-    "description": "Partial Interest Valuation • Right of Way • Youth Rehabilitation Facilities • Ground Lease Valuation • Marketing Packages",
     "image": "images/features/noun_3d modeling_1885342.svg"
   }
 ]
